@@ -1,0 +1,63 @@
+.label {
+    position: relative;
+  }
+  
+  .panelInput {
+    width: 440px;
+    background: #24303c;
+    padding: 15px;
+    margin: 5% auto;
+    margin-top: 45px;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+  }
+  
+  .controls {
+    width: 85%;
+    color: white;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #1f53c5;
+    
+  }
+  
+  .btnStart {
+    width: 10%;
+    background-color: rgb(127, 206, 255);;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 5px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    margin: 5px;
+    transform: translateX(450%);
+  }
+  
+  .btnControls {
+    width: 85%;
+    background-color: rgb(127, 206, 255);;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 5px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    
+    
+  }
+  
+  .btnControls:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127, 206, 255);
+    color: rgb(127, 206, 255);
+  }
+  
+  .btnStart:hover {
+    background-color: transparent;
+    border: 2px solid rgb(127, 206, 255);
+    color: rgb(127, 206, 255);
+  }
